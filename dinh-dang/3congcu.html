@@ -11,71 +11,25 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600;700&display=swap" rel="stylesheet">
   
   <style>
-    @font-face {
-      font-family: "FD Aeonik Extended";
-      src: url('../assets/fonts/FDAeonikExtended-Bold.woff2') format("woff2"),
-           url('../assets/fonts/FDAeonikExtended-Bold.ttf') format("truetype"),
-           local("FD Aeonik Extended Bold");
-      font-weight: 700;
-      font-style: normal;
-      font-display: swap;
-    }
-    @font-face {
-      font-family: "FD Aeonik";
-      src: url('../assets/fonts/FDAeonik-Regular.woff2') format("woff2"),
-           url('../assets/fonts/FDAeonik-Regular.ttf') format("truetype"),
-           local("FD Aeonik Regular");
-      font-weight: 400;
-      font-style: normal;
-      font-display: swap;
-    }
-    @font-face {
-      font-family: "FD Aeonik";
-      src: url('../assets/fonts/FDAeonik-Medium.woff2') format("woff2"),
-           url('../assets/fonts/FDAeonik-Medium.ttf') format("truetype"),
-           local("FD Aeonik Medium");
-      font-weight: 500;
-      font-style: normal;
-      font-display: swap;
-    }
-    @font-face {
-      font-family: "FD Aeonik";
-      src: url('../assets/fonts/FDAeonik-Bold.woff2') format("woff2"),
-           url('../assets/fonts/FDAeonik-Bold.ttf') format("truetype"),
-           local("FD Aeonik Bold");
-      font-weight: 600 700;
-      font-style: normal;
-      font-display: swap;
-    }
-    @font-face {
-      font-family: "Tiempos Text";
-      src: url('../assets/fonts/FDTiemposText-Regular.woff2') format("woff2"),
-           url('../assets/fonts/FDTiemposText-Regular.otf') format("opentype"),
-           url('../assets/fonts/TiemposText-Regular.woff2') format("woff2");
-      font-weight: 400;
-      font-style: normal;
-      font-display: swap;
-    }
-    @font-face {
-      font-family: "Tiempos Text";
-      src: url('../assets/fonts/FDTiemposText-Medium.woff2') format("woff2"),
-           url('../assets/fonts/FDTiemposText-Medium.otf') format("opentype"),
-           url('../assets/fonts/TiemposText-Medium.woff2') format("woff2");
-      font-weight: 500;
-      font-style: normal;
-      font-display: swap;
-    }
-    @font-face {
-      font-family: "Tiempos Text";
-      src: url('../assets/fonts/FDTiemposText-RegularItalic.woff2') format("woff2"),
-           url('../assets/fonts/FDTiemposText-RegularItalic.otf') format("opentype"),
-           url('../assets/fonts/TiemposText-RegularItalic.woff2') format("woff2");
-      font-weight: 400;
-      font-style: italic;
-      font-display: swap;
-    }
-
-    :root {
+    /* SIL Open Font License 1.1 Webfonts */
+@font-face { font-family: 'FD Newsreader Display'; src: url('https://font.fedu.vn/fonts/FDNewsreaderDisplay-Light.woff2') format('woff2'); font-weight: 300; font-style: normal; font-display: swap; }
+@font-face { font-family: 'FD Newsreader Display'; src: url('https://font.fedu.vn/fonts/FDNewsreaderDisplay-Regular.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'FD Newsreader Display'; src: url('https://font.fedu.vn/fonts/FDNewsreaderDisplay-Medium.woff2') format('woff2'); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: 'FD Newsreader Display'; src: url('https://font.fedu.vn/fonts/FDNewsreaderDisplay-Bold.woff2') format('woff2'); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: 'FD Newsreader Display'; src: url('https://font.fedu.vn/fonts/FDNewsreaderDisplay-ExtraBold.woff2') format('woff2'); font-weight: 800 900; font-style: normal; font-display: swap; }
+@font-face { font-family: 'FD Newsreader'; src: url('https://font.fedu.vn/fonts/FDNewsreader-Regular.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'FD Newsreader'; src: url('https://font.fedu.vn/fonts/FDNewsreader-Italic.woff2') format('woff2'); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: 'FD Newsreader'; src: url('https://font.fedu.vn/fonts/FDNewsreader-Medium.woff2') format('woff2'); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: 'FD Newsreader'; src: url('https://font.fedu.vn/fonts/FDNewsreader-SemiBold.woff2') format('woff2'); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: 'FD Newsreader'; src: url('https://font.fedu.vn/fonts/FDNewsreader-Bold.woff2') format('woff2'); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Be Vietnam Pro'; src: url('https://font.fedu.vn/fonts/BeVietnamPro-Regular.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Be Vietnam Pro'; src: url('https://font.fedu.vn/fonts/BeVietnamPro-Italic.woff2') format('woff2'); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: 'Be Vietnam Pro'; src: url('https://font.fedu.vn/fonts/BeVietnamPro-Medium.woff2') format('woff2'); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Be Vietnam Pro'; src: url('https://font.fedu.vn/fonts/BeVietnamPro-SemiBold.woff2') format('woff2'); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Be Vietnam Pro'; src: url('https://font.fedu.vn/fonts/BeVietnamPro-Bold.woff2') format('woff2'); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Archivo'; src: url('https://font.fedu.vn/fonts/Archivo-Variable.woff2') format('woff2'); font-weight: 100 900; font-stretch: 115%; font-style: normal; font-display: swap; }
+@font-face { font-family: 'JetBrains Mono'; src: url('https://font.fedu.vn/fonts/JetBrainsMono-Variable.woff2') format('woff2'); font-weight: 100 800; font-style: normal; font-display: swap; }
+:root {
       --cl-bg: #ffffff;
       --cl-tint: #f8fafc;
       --cl-line: #e2e8f0;
@@ -85,9 +39,9 @@
       --cl-accent: #1a73e8;
       --cl-accent-soft: rgba(26, 115, 232, 0.08);
 
-      --font-display-short: "FD Aeonik Extended", "Inter", -apple-system, sans-serif;
-      --font-display-long: "FD Aeonik", "Inter", -apple-system, sans-serif;
-      --font-body: "Tiempos Text", Georgia, serif;
+      --font-display-short: "Archivo", "Inter", -apple-system, sans-serif;
+      --font-display-long: "Be Vietnam Pro", "Inter", -apple-system, sans-serif;
+      --font-body: "FD Newsreader", Georgia, serif;
       --font-mono: "JetBrains Mono", Consolas, monospace;
 
       --apple-spring: cubic-bezier(0.25, 1, 0.35, 1.05);
